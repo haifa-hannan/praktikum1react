@@ -1,0 +1,158 @@
+.judul{
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+.container{
+    height: 590px;
+    width: 500px;
+    background-color: rgb(241, 241, 241);
+    margin: 0 auto;
+    box-shadow: 7px 7px 14px rgb(129, 129, 129);
+    font-size: 18px;
+    margin-top: 75px;
+    border-radius: 10px;
+}
+
+.form{
+    width: max-content;
+    margin: auto;
+}
+
+.form-control{
+    padding: 0;
+    width: 420px;
+    border: none;
+    padding: 12px;
+}
+
+.sub{
+    color: black;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.center-btn{
+    width: max-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: yellow;
+}
+
+/* BMI */
+.hasil{
+    text-align: center;
+}
+
+.tampil{
+    text-align: center;
+    margin: auto;
+    padding: 15px 0;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.merah{
+    background-color: rgb(196, 0, 0);
+    color: white;
+}
+
+.oranye{
+    background-color: rgb(243, 151, 13);
+    color: white;
+}
+
+.kuning{
+    background-color: rgb(247, 242, 0);
+    color: black;
+}
+
+.hijau{
+    background-color: rgba(21, 255, 0, 0.815);
+    color: black;
+}
+
+
+/* hasil akhir */
+.btn-hasilakhir{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 132, 95);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 1s;
+    margin-bottom: 10px;
+}
+
+.btn-hasilakhir:hover{
+    background-color: red;
+}
+
+.hasilakhir{
+    background-color: silver;
+    padding: 10px 10px;
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.selected{
+    padding: 0;
+    width: 440px;
+    border: none;
+    padding: 12px;
+}
+
+
+/* konversi */
+
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form-select{
+    padding: 0;
+    width: 440px;
+    border: none;
+    padding: 12px;
+    margin-bottom: 30px;
+}
+
+.tampilhasil{
+    /* background-color: silver; */
+    padding: 10px 10px;
+    width: 420px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    border: solid 2px black;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+

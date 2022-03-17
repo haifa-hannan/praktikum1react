@@ -1,0 +1,99 @@
+.container1{
+max-width: 1170px;
+width: 100%;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+
+/* Navbar */
+Navbar{
+margin: 0;
+font-family: "Lucida Grande";
+box-sizing: border-box;
+}
+
+header{
+height: 65px;
+width: 100%;
+background-color: rgba(34, 49, 52, 0.9);
+position :fixed;
+top: 0;
+z-index: 10;
+}
+
+.Nav{
+    color: white;
+    text-align: center;
+}
+
+/* Main */
+
+.content{
+    margin-top: 150px;
+    margin-bottom: 156px;
+    text-align: center;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.lesson-card {
+    display: inline-block;
+    width: 22.5%;
+    margin-right: 24px;
+    margin-top: 24px;
+    box-shadow: 2px 2px 20px #adadad;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.lesson-item {
+    border-radius: 4px;
+    padding: 48px 5px;
+    text-align: center;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 1450px;
+    padding-bottom: 60px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.btn-close{
+    text-align: center;
+}
+
+.modal-close-btn {
+    font-size: 13px;
+    color: #4b4b4b;
+    width: 200px;
+    padding: 16px 0;
+    border: 0;
+    background-color: #dbdbdb;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal-close-btn:hover {
+    color: #ffffff;
+    background-color: #313131;
+    transition: .3s ease-in-out;
+}
